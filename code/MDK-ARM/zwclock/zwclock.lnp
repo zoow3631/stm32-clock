@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"zwclock\startup_stm32f103xb.o"
+"zwclock\main.o"
+"zwclock\stm32f1xx_it.o"
+"zwclock\stm32f1xx_hal_msp.o"
+"zwclock\stm32f1xx_hal_gpio_ex.o"
+"zwclock\stm32f1xx_hal_tim.o"
+"zwclock\stm32f1xx_hal_tim_ex.o"
+"zwclock\stm32f1xx_hal.o"
+"zwclock\stm32f1xx_hal_rcc.o"
+"zwclock\stm32f1xx_hal_rcc_ex.o"
+"zwclock\stm32f1xx_hal_gpio.o"
+"zwclock\stm32f1xx_hal_dma.o"
+"zwclock\stm32f1xx_hal_cortex.o"
+"zwclock\stm32f1xx_hal_pwr.o"
+"zwclock\stm32f1xx_hal_flash.o"
+"zwclock\stm32f1xx_hal_flash_ex.o"
+"zwclock\stm32f1xx_hal_exti.o"
+"zwclock\stm32f1xx_hal_uart.o"
+"zwclock\system_stm32f1xx.o"
+--strict --scatter "zwclock\zwclock.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "zwclock.map" -o zwclock\zwclock.axf

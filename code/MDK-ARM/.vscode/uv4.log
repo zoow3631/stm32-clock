@@ -1,0 +1,13 @@
+Build target 'zwclock'
+compiling main.c...
+../Core/Src/main.c(67): warning:  #1295-D: Deprecated declaration change - give arg types
+  void change();
+../Core/Src/main.c(133): warning:  #188-D: enumerated type mixed with another type
+                        HAL_GPIO_WritePin(GPIOA,GPIO_PIN_12,1);                 
+../Core/Src/main.c(136): warning:  #188-D: enumerated type mixed with another type
+                        HAL_GPIO_WritePin(GPIOA,GPIO_PIN_12,0);
+../Core/Src/main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=6880 RO-data=312 RW-data=60 ZI-data=1788  
+FromELF: creating hex file...
+"zwclock\zwclock.axf" - 0 Error(s), 3 Warning(s).

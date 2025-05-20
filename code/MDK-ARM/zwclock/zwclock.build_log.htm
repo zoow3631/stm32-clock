@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: z ²Ø·æÊØ×¾, z, LIC=14HV2-9VDFU-JJE6S-L0UQ6-PP11B-MNZEK
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+d:\three\stm32\project\zwclock\code\MDK-ARM\zwclock.uvprojx
+Project File Date:  11/13/2024
+
+<h2>Output:</h2>
+Build target 'zwclock'
+compiling main.c...
+../Core/Src/main.c(67): warning:  #1295-D: Deprecated declaration change - give arg types
+  void change();
+../Core/Src/main.c(133): warning:  #188-D: enumerated type mixed with another type
+                        HAL_GPIO_WritePin(GPIOA,GPIO_PIN_12,1);                 
+../Core/Src/main.c(136): warning:  #188-D: enumerated type mixed with another type
+                        HAL_GPIO_WritePin(GPIOA,GPIO_PIN_12,0);
+../Core/Src/main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=6880 RO-data=312 RW-data=60 ZI-data=1788  
+FromELF: creating hex file...
+"zwclock\zwclock.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  d:\three\stm32\project\zwclock\code\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
